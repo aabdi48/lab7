@@ -1,4 +1,15 @@
 td, th {
-	border: 1px solid;
-  }
-  
+border: 1px solid;
+padding: 10px;
+text-align: center;
+}
+
+table {
+border-collapse: collapse;
+margin: auto;
+}
+
+img {
+width: 120px;
+height: auto;
+}
