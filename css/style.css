@@ -5,16 +5,22 @@ body {
 
 table {
   border-collapse: collapse;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 
 th, td {
   border: 1px solid black;
-  padding: 10px;
+  padding: 12px;
   text-align: center;
 }
 
+th {
+  font-weight: bold;
+}
+
 img {
-  width: 100px;
+  width: 120px;
   height: auto;
+  display: block;
+  margin: auto;
 }
