@@ -1,38 +1,34 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
+  background-color: #f4f4f4;
 }
 
-table {
+h1 {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+p {
+  font-style: italic;
+}
+
+#planetTable {
   border-collapse: collapse;
   margin: 30px auto;
+  background-color: white;
 }
 
-th, td {
+#planetTable th, #planetTable td {
   border: 1px solid black;
   padding: 12px;
   text-align: center;
 }
 
-th {
+#planetTable th {
+  background-color: #34495e;
+  color: white;
   font-weight: bold;
-}
-
-img {
-  width: 120px;
-  height: auto;
-  display: block;
-  margin: auto;
-}
-table {
-  border-collapse: collapse;
-  margin: 30px auto;
-}
-
-th, td {
-  border: 1px solid black;
-  padding: 10px;
-  text-align: center;
 }
 
 img {
